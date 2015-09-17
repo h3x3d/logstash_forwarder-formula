@@ -61,8 +61,4 @@ logstash-forwarder-init:
       - service: logstash-forwarder-svc
     - require:
       - pkg: logstash-forwarder-pkg
-<<<<<<< HEAD
 {%- endif %}
-=======
-{%- endif %}
->>>>>>> cddf066408160e5a7f784c865bb58f1d74846580
